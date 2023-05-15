@@ -84,7 +84,7 @@ function err($msg){
       
       <!-- ini buat bagian deskripsi -->
       <p id="deskripsi-tambah">Isi Konten</p>
-      <textarea name="art_desc" id="art_desc" cols="30" rows="10"></textarea><br>
+      <textarea name="art_desc" required id="art_desc" cols="30" rows="10"></textarea><br>
       
       <!-- ini buat masukkan gambar -->
       <p id="deskripsi-tambah">Foto Produk</p>

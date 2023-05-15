@@ -85,15 +85,15 @@ function err($msg){
       
       <!-- ini buat bagian varian2 -->
       <p id="deskripsi-tambah">Varian 2</p>
-      <input type="text" name="prd_v2" placeholder="1kg"><br>
+      <input type="text" required name="prd_v2" placeholder="1kg"><br>
       <!-- ini buat bagian harga varian2  -->
-      <input type="number" name="prd_v2pc" placeholder="21900"><br>
+      <input type="number" required name="prd_v2pc" placeholder="21900"><br>
       
       
       
       <!-- ini buat bagian deskripsi -->
       <p id="deskripsi-tambah">Deskripsi Produk</p>
-      <textarea name="prd_desc" id="prd_desc" cols="30" rows="10"></textarea><br>
+      <textarea name="prd_desc" required id="prd_desc" cols="30" rows="10"></textarea><br>
       
       <!-- ini buat masukkan gambar -->
       <p id="deskripsi-tambah">Foto Produk</p>
