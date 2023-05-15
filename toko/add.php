@@ -89,9 +89,9 @@ $cat = query("SELECT * FROM kat_produk");
       
       <!-- ini buat bagian varian2 -->
       <p id="deskripsi-tambah">Varian 2</p>
-      <input type="text" name="prd_v2" placeholder="1kg"><br>
+      <input type="text" required name="prd_v2" placeholder="1kg"><br>
       <!-- ini buat bagian harga varian2  -->
-      <input type="number" name="prd_v2pc" placeholder="21900"><br>
+      <input type="number" required name="prd_v2pc" placeholder="21900"><br>
       
       
       
